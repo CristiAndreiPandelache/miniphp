@@ -1,0 +1,22 @@
+SQL database
+
+
+CREATE TABLE `users` (
+  `id` int(10) NOT NULL,
+  `username` varchar(150) NOT NULL,
+  `password` varchar(250) NOT NULL,
+  `email` varchar(200) NOT NULL,
+  `nume` varchar(200) NOT NULL,
+  `age` text NOT NULL,
+  `prenume` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `username`, `password`, `email`, `nume`, `age`, `prenume`) VALUES
+(1, 'qweqwe', 'qeqe', 'andrei2sii@yahoo.com', 'qeqwe', '9', 'qeqwe'),
+(2, 'DigitalCode', 'k34', 'andrei2sii@yahoo.com', 'Cristi', '8', 'Andrei'),
+(3, 'weatheri', 'qeqe', 'qweqe@yahoo.com', 'qeqe', '8', 'qeqweq@yqeqee.com'),
+(15, 'text3', 'qweqweqe', 'pandelache.cristi@yahoo.com', 'Pandelache', '9', 'Cristi Andre');

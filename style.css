@@ -1,0 +1,19 @@
+body {
+    background-color: #ccc;
+}
+
+.singup {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.imag-reg {
+    text-align: center;
+}
+
+.title-reg {
+    text-align: center;
+    font-size: 19px;
+    font-style: italic;
+    color: black);
+}
